@@ -1,0 +1,45 @@
+/* home main container */
+.container{
+    width: 100%;
+    height: 100%;
+    background: black;
+    clip-path: polygon(0 0, 75% 0%, 100% 0, 100% 100%, 62% 93%, 0 100%);
+     text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    font-style: oblique;
+}
+/* home content */
+.content{
+    color: white;
+    margin-top: 100px;
+}
+.homeRight{
+    padding: 0px;
+    margin-top: -300px;
+    padding: 0px;
+    margin: 0px;
+}
+.paragraph{
+    color: white;
+    margin-top: 50px;
+    justify-content: start;
+    font-weight: 100;
+    font-style: oblique;
+    font-size: 15px;
+}
+/* animation div */
+.animation{
+    position: relative;
+}
+/*brain img */
+.brain{
+    margin-top: -100px;
+}
+/* flash img */
+.flash{
+    margin-top: -350px;
+    width: 90%;
+}
