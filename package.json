@@ -9,8 +9,11 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "@wellyshen/use-web-animations": "^0.5.1",
+    "animate.css": "^4.1.0",
+    "aos": "^2.3.4",
     "history": "^5.0.0",
     "react": "^16.13.1",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.13.1",
     "react-router-dom": "^6.0.0-beta.0",
     "react-scripts": "3.4.1"

@@ -1,14 +1,15 @@
 import React from 'react';
 import {Navbar,Home,Services,About,Contact,Footer} from './components/InitializeComponents';
+
 function App() {
   return (
    <>
       <Navbar/>
-      <Home/>
+      <Home />
       <Services/>
       <About/>
       <Contact/>
-      <Footer/>
+      <Footer  data-aos="fade-right"/>
    </>
   );
 }
