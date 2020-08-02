@@ -60,8 +60,10 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(0, 1),
     // necessary for content to be below app bar
     ...theme.mixins.toolbar,
-    justifyContent: 'flex-start',
-    
+    justifyContent: 'flex-start', 
+  },
+  li:{
+    color: '#fff',
   }
 }));
 
@@ -120,15 +122,15 @@ export default function Navbar() {
         }}
       >
        <div className={classes.drawerHeader}>
-          <IconButton onClick={handleDrawerClose}>
+          <IconButton  className={classes.li} onClick={handleDrawerClose}>
             {theme.direction === 'rtl' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
           </IconButton>
         </div>
         <Divider />
         <List>
           {['Home', 'Info'].map((text, index) => (
-            <ListItem button key={text}>
-              <ListItemIcon>{index % 2 === 0 ? <Home /> : <InfoIcon />}</ListItemIcon>
+            <ListItem button key={text} className={classes.li}>
+              <ListItemIcon  className={classes.li}>{index % 2 === 0 ? <Home /> : <InfoIcon />}</ListItemIcon>
               <ListItemText primary={text} />
             </ListItem>
           ))}

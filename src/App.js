@@ -1,13 +1,15 @@
 import React from 'react';
-import Navbar from './components/Navbar/Navbar';
-import Home from './components/Home/Home';
-
+import {Navbar,Home,Services,About,Contact,Footer} from './components/InitializeComponents';
 function App() {
   return (
-   <div>
-     <Navbar/>
-     <Home/>
-   </div>
+   <>
+      <Navbar/>
+      <Home/>
+      <Services/>
+      <About/>
+      <Contact/>
+      <Footer/>
+   </>
   );
 }
 

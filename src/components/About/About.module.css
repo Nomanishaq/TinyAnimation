@@ -1,0 +1,20 @@
+.container{
+  padding: 80px;
+    background: linear-gradient(to right, #193e98, #0098c6);
+    text-align: center;
+    align-items: center;
+}
+.button{
+    background: #0098c6 !important;
+    color: #ffff !important; 
+}
+.contentP{
+    margin-top: 40px;
+    color:  #ffffff;
+    font-weight: 300;
+    justify-content: start;
+    font-size: 17px;
+}
+.img{
+    width: 250px;
+}

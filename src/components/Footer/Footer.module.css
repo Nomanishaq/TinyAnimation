@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to right, #193e98, #0098c6);
+}
+p{
+    color: #ffff;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+}
