@@ -5,8 +5,12 @@
 }
 
 p {
-    color: #ffff;
+    color: #ffff !important;
     align-items: center;
     text-align: center;
     padding-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: #fff !important;
 }
