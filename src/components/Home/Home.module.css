@@ -1,39 +1,44 @@
 /* home container  */
-.HomeContainer{
+.HomeContainer {
     width: 100%;
     height: 100%;
-    background:radial-gradient(circle, #0072d4 0%, rgb(16, 29, 143) 70%);
+    background: radial-gradient(circle, #0072d4 0%, rgb(16, 29, 143) 70%);
     /* clip-path: polygon(0 0, 75% 0%, 100% 0, 100% 100%, 62% 93%, 0 100%); */
-     text-align: center;
+    text-align: center;
 }
-.heading{
+
+.heading {
     font-size: 40px;
     font-weight: 400;
     font-style: oblique;
 }
+
 /* home content */
-.content{
+.content {
     color: white;
     margin-top: 100px;
 }
-@media (max-width: 600px){
-    .content{
+
+@media (max-width: 600px) {
+    .content {
         margin-top: 20px;
     }
-    h1{
+
+    h1 {
         font-size: 35px;
         font-weight: 200;
         font-style: oblique;
     }
 }
 
-.homeRight{
+.homeRight {
     padding: 0px;
     margin-top: -300px;
     padding: 0px;
     margin: 0px;
 }
-.paragraph{
+
+.paragraph {
     color: white;
     margin-top: 50px;
     justify-content: start;
@@ -41,20 +46,24 @@
     font-style: oblique;
     font-size: 15px;
 }
+
 /* animation div */
-.animation{
+.animation {
     position: relative;
 }
+
 /*brain img */
-.brain{
+.brain {
     margin-top: -100px;
 }
+
 /* flash img */
-.flash{
+.flash {
     margin-top: -350px;
     width: 90%;
 }
-.btn{
+
+.btn {
     background: linear-gradient(to bottom, #ffe712, #d92104);
     color: white !important;
     border-radius: 15px !important;

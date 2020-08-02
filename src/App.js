@@ -5,7 +5,7 @@ function App() {
   return (
    <>
       <Navbar/>
-      <Home />
+      <Home/>
       <Services/>
       <About/>
       <Contact/>

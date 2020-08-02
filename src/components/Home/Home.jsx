@@ -13,7 +13,7 @@ import useWebAnimations, {
 import Intro_Featured_Image from '.././img/Intro_Featured_Image_Empty.svg'
 import brain from '.././img/Intro_Brain.svg';
 import home from './Home.module.css';
-import {Button} from '@material-ui/core'
+import { Button } from '@material-ui/core'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -48,12 +48,12 @@ const Home = () => {
               <Grid item xs={12} sm={6}>
                 <div ref={left.ref} className={home.content}>
                   <h1 className={home.heading}>Your web presence just got so much better</h1>
-                      <div className={home.paragraph}>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in magni mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in magni mollitia</p>
-                      </div>
-                        <div className={home.button}>
-                                <Button variant="contained" className={home.btn}>Send a Message</Button>
-                        </div>
+                  <div className={home.paragraph}>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in magni mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum in magni mollitia</p>
+                  </div>
+                  <div className={home.button}>
+                    <Button variant="contained" className={home.btn}>Send a Message</Button>
+                  </div>
                 </div>
               </Grid>
 
@@ -81,9 +81,9 @@ const Home = () => {
           </Container>
         </div>
       </div>
-<div>
-  
-</div>
+      <div>
+
+      </div>
 
 
 

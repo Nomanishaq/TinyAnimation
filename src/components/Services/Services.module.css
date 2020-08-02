@@ -1,31 +1,38 @@
-.container{
+.container {
     background: linear-gradient(to right, #40c4ff, #15308d);
 }
-.content{
+
+.content {
     color: #fff;
     text-align: center;
 }
-.contentTitle{
+
+.contentTitle {
     font-size: 45px;
     font-weight: 700;
     margin-top: 50px;
 }
-.contentP{
+
+.contentP {
     margin-top: 50px;
     font-weight: 300;
 }
-.containerBorder{
+
+.containerBorder {
     padding-top: 70px;
 }
-@media(max-width: 600px){
-    .contentP{
+
+@media(max-width: 600px) {
+    .contentP {
         margin-top: 0px;
     }
-    .contentTitle{
-    margin-top: 0px;
-    font-size: 25px;
+
+    .contentTitle {
+        margin-top: 0px;
+        font-size: 25px;
     }
-    .containerBorder{
+
+    .containerBorder {
         padding-top: 40px;
     }
 }

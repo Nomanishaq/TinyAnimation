@@ -1,22 +1,26 @@
-.container{
+.container {
     background: linear-gradient(to right, #193e98, #40c4ff);
     text-align: center;
     color: #fff;
 }
-.title{
+
+.title {
     font-size: 25px;
     font-weight: 100;
     margin: 0;
     padding: 0;
 }
-.icon{
+
+.icon {
     font-size: 120px !important;
 }
-p{
+
+p {
     font-weight: 100;
 }
-@media(max-width: 600px){
-    .icon{
+
+@media(max-width: 600px) {
+    .icon {
         font-size: 60px !important;
     }
 }

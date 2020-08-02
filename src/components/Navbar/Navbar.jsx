@@ -1,21 +1,12 @@
 import React from 'react';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-import Drawer from '@material-ui/core/Drawer';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import List from '@material-ui/core/List';
-import Typography from '@material-ui/core/Typography';
+import { Drawer, AppBar, Toolbar, CssBaseline, List, Typography, IconButton, ListItem, ListItemIcon, ListItemText } from '@material-ui/core';
 import Divider from '@material-ui/core/Divider';
-import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import {Home} from '@material-ui/icons/';
+import { Home } from '@material-ui/icons/';
 import InfoIcon from '@material-ui/icons/Info';
 
 const drawerWidth = 240;
@@ -60,9 +51,9 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(0, 1),
     // necessary for content to be below app bar
     ...theme.mixins.toolbar,
-    justifyContent: 'flex-start', 
+    justifyContent: 'flex-start',
   },
-  li:{
+  li: {
     color: '#fff',
   }
 }));
@@ -91,7 +82,7 @@ export default function Navbar() {
       >
         <Toolbar>
           <Typography variant="h6" noWrap className={classes.title}>
-          Tiny Animation
+            Tiny Animation
           </Typography>
           <IconButton
             color="inherit"
@@ -110,7 +101,7 @@ export default function Navbar() {
         })}
       >
         <div className={classes.drawerHeader} />
-        
+
       </main>
       <Drawer
         className={classes.drawer}
@@ -121,8 +112,8 @@ export default function Navbar() {
           paper: classes.drawerPaper,
         }}
       >
-       <div className={classes.drawerHeader}>
-          <IconButton  className={classes.li} onClick={handleDrawerClose}>
+        <div className={classes.drawerHeader}>
+          <IconButton className={classes.li} onClick={handleDrawerClose}>
             {theme.direction === 'rtl' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
           </IconButton>
         </div>
@@ -130,7 +121,7 @@ export default function Navbar() {
         <List>
           {['Home', 'Info'].map((text, index) => (
             <ListItem button key={text} className={classes.li}>
-              <ListItemIcon  className={classes.li}>{index % 2 === 0 ? <Home /> : <InfoIcon />}</ListItemIcon>
+              <ListItemIcon className={classes.li}>{index % 2 === 0 ? <Home /> : <InfoIcon />}</ListItemIcon>
               <ListItemText primary={text} />
             </ListItem>
           ))}
