@@ -35,7 +35,7 @@ const Contact = () => {
 
                     <Grid item xs={12} sm={12} className={classes.content}>
                         <EmailIcon className={classes.icon} ref={animation.ref} />
-                        <p>nathan@cortexcopywriter.com</p>
+                        <p>nomanishaq251@gmail.com</p>
                     </Grid>
 
 
